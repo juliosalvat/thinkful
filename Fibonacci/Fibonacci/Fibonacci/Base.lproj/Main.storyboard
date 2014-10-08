@@ -52,7 +52,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="selectedTextView" destination="RLc-Mb-wMN" id="6XR-d9-rlP"/>
+                        <outlet property="outputTextView" destination="RLc-Mb-wMN" id="5O4-uO-3cM"/>
                         <outlet property="selectedValueLabel" destination="fxG-jm-Wtt" id="nj0-i9-vPR"/>
                         <outlet property="theSlider" destination="8Tb-1B-rMs" id="yJt-7Y-tPr"/>
                     </connections>

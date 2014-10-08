@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var theSlider: UISlider!
     @IBOutlet weak var selectedValueLabel: UILabel!
     @IBOutlet weak var outputTextView: UITextView!
+    
 
     
     //An instance of the model
