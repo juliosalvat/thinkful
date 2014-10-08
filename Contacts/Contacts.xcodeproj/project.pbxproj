@@ -13,6 +13,7 @@
 		0EA3BF6019E4BF7400BFCD27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA3BF5F19E4BF7400BFCD27 /* Images.xcassets */; };
 		0EA3BF6319E4BF7400BFCD27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA3BF6119E4BF7400BFCD27 /* LaunchScreen.xib */; };
 		0EA3BF6F19E4BF7400BFCD27 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3BF6E19E4BF7400BFCD27 /* ContactsTests.swift */; };
+		0EA3BF7B19E4C56E00BFCD27 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA3BF7A19E4C56E00BFCD27 /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0EA3BF6819E4BF7400BFCD27 /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA3BF6D19E4BF7400BFCD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA3BF6E19E4BF7400BFCD27 /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
+		0EA3BF7A19E4C56E00BFCD27 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../../Desktop/apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		0EA3BF4A19E4BF7400BFCD27 = {
 			isa = PBXGroup;
 			children = (
+				0EA3BF7A19E4C56E00BFCD27 /* apple.png */,
 				0EA3BF5519E4BF7400BFCD27 /* Contacts */,
 				0EA3BF6B19E4BF7400BFCD27 /* ContactsTests */,
 				0EA3BF5419E4BF7400BFCD27 /* Products */,
@@ -194,6 +197,7 @@
 			files = (
 				0EA3BF5E19E4BF7400BFCD27 /* Main.storyboard in Resources */,
 				0EA3BF6319E4BF7400BFCD27 /* LaunchScreen.xib in Resources */,
+				0EA3BF7B19E4C56E00BFCD27 /* apple.png in Resources */,
 				0EA3BF6019E4BF7400BFCD27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
