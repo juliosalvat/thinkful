@@ -17,13 +17,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let manager = AFHTTPRequestOperationManager()
         
-        manager.GET( "http:/graph.facebook.com/juliosalvatjr",
+        manager.GET( "http://graph.facebook.com/juliosalvatjr",
             parameters: nil,
             success: { (operation: AFHTTPRequestOperation!,responseObject: AnyObject!) in
                 println("JSON: " + responseObject.description)
                 
                 if let myName = responseObject.valueForKey("name") as? String {
-                    self.myNameLabel.text = "Julio Salvat";
+                    self.myNameLabel.text = myName;
                 }
             },
             failure: { (operation: AFHTTPRequestOperation!,error: NSError!) in
