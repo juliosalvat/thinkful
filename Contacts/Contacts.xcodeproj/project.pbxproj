@@ -16,6 +16,7 @@
 		0EA3BF6319E4BF7400BFCD27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA3BF6119E4BF7400BFCD27 /* LaunchScreen.xib */; };
 		0EA3BF6F19E4BF7400BFCD27 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3BF6E19E4BF7400BFCD27 /* ContactsTests.swift */; };
 		0EA3BF7F19E5C69000BFCD27 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3BF7E19E5C69000BFCD27 /* Contacts.swift */; };
+		0EF3F3D219EC7D1700C27A80 /* ContactInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF3F3D119EC7D1700C27A80 /* ContactInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		0EA3BF6D19E4BF7400BFCD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA3BF6E19E4BF7400BFCD27 /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
 		0EA3BF7E19E5C69000BFCD27 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		0EF3F3D119EC7D1700C27A80 /* ContactInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0EA3BF5819E4BF7400BFCD27 /* AppDelegate.swift */,
 				0EA3BF5A19E4BF7400BFCD27 /* ViewController.swift */,
 				0EA3BF5C19E4BF7400BFCD27 /* Main.storyboard */,
+				0EF3F3D119EC7D1700C27A80 /* ContactInput.swift */,
 				0EA3570219E74FE300090A8C /* ContactDetails.swift */,
 				0EA3570019E74C2300090A8C /* apple.png */,
 				0EA3BF5F19E4BF7400BFCD27 /* Images.xcassets */,
@@ -224,6 +227,7 @@
 			files = (
 				0EA3BF5B19E4BF7400BFCD27 /* ViewController.swift in Sources */,
 				0EA3570319E74FE300090A8C /* ContactDetails.swift in Sources */,
+				0EF3F3D219EC7D1700C27A80 /* ContactInput.swift in Sources */,
 				0EA3BF5919E4BF7400BFCD27 /* AppDelegate.swift in Sources */,
 				0EA3BF7F19E5C69000BFCD27 /* Contacts.swift in Sources */,
 			);

@@ -13,6 +13,10 @@
 		4F0F52131A2E5CD300FCA439 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F52121A2E5CD300FCA439 /* Images.xcassets */; };
 		4F0F52161A2E5CD300FCA439 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F52141A2E5CD300FCA439 /* LaunchScreen.xib */; };
 		4F0F52221A2E5CD300FCA439 /* BuildZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F52211A2E5CD300FCA439 /* BuildZTests.swift */; };
+		4F0F523C1A2E785C00FCA439 /* logoblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F523B1A2E785C00FCA439 /* logoblue.png */; };
+		4F0F523E1A2E818900FCA439 /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F523D1A2E818900FCA439 /* LoginVCViewController.swift */; };
+		4F0F52401A2E838B00FCA439 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F523F1A2E838B00FCA439 /* SignupVC.swift */; };
+		4F0F52441A2E8FEC00FCA439 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F52431A2E8FEB00FCA439 /* WelcomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		4F0F521B1A2E5CD300FCA439 /* BuildZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0F52201A2E5CD300FCA439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0F52211A2E5CD300FCA439 /* BuildZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildZTests.swift; sourceTree = "<group>"; };
+		4F0F523B1A2E785C00FCA439 /* logoblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoblue.png; sourceTree = "<group>"; };
+		4F0F523D1A2E818900FCA439 /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		4F0F523F1A2E838B00FCA439 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		4F0F52431A2E8FEB00FCA439 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,16 @@
 		4F0F52081A2E5CD300FCA439 /* BuildZ */ = {
 			isa = PBXGroup;
 			children = (
+				4F0F523B1A2E785C00FCA439 /* logoblue.png */,
 				4F0F520B1A2E5CD300FCA439 /* AppDelegate.swift */,
 				4F0F520D1A2E5CD300FCA439 /* ViewController.swift */,
 				4F0F520F1A2E5CD300FCA439 /* Main.storyboard */,
 				4F0F52121A2E5CD300FCA439 /* Images.xcassets */,
 				4F0F52141A2E5CD300FCA439 /* LaunchScreen.xib */,
 				4F0F52091A2E5CD300FCA439 /* Supporting Files */,
+				4F0F523D1A2E818900FCA439 /* LoginVCViewController.swift */,
+				4F0F523F1A2E838B00FCA439 /* SignupVC.swift */,
+				4F0F52431A2E8FEB00FCA439 /* WelcomeVC.swift */,
 			);
 			path = BuildZ;
 			sourceTree = "<group>";
@@ -192,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0F523C1A2E785C00FCA439 /* logoblue.png in Resources */,
 				4F0F52111A2E5CD300FCA439 /* Main.storyboard in Resources */,
 				4F0F52161A2E5CD300FCA439 /* LaunchScreen.xib in Resources */,
 				4F0F52131A2E5CD300FCA439 /* Images.xcassets in Resources */,
@@ -212,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0F52401A2E838B00FCA439 /* SignupVC.swift in Sources */,
+				4F0F52441A2E8FEC00FCA439 /* WelcomeVC.swift in Sources */,
 				4F0F520E1A2E5CD300FCA439 /* ViewController.swift in Sources */,
 				4F0F520C1A2E5CD300FCA439 /* AppDelegate.swift in Sources */,
+				4F0F523E1A2E818900FCA439 /* LoginVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

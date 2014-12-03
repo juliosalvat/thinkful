@@ -8,6 +8,8 @@
 
 import UIKit
 
+// UITableViewDataSource, UITableViewDelegate
+
 class Contacts: UITableViewController, UITableViewDataSource, UITableViewDelegate {
     
     //Declaring elements
@@ -46,5 +48,27 @@ class Contacts: UITableViewController, UITableViewDataSource, UITableViewDelegat
             listOfContacts.append(firstContact)
             listOfContacts.append(secondContact)
         }
+    
+    //Passing details to detail VC
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+    
+        if segue.identifier == "ToDetail" {
+            
+            let indexPath = self.tableView.indexPathForSelectedRow()
+            let theSelectedRow = listOfContacts[indexPath!.row]
+            let theDestination = (segue.destinationViewController as ContactDetails)
+            
+            
+            theDestination.contactName = theSelectedRow.name
+            theDestination.contactPhone = theSelectedRow.phoneNumber
+        }
+        
+        else if segue.identifier == "ToInput"
+        {
+           
+            
+            
+        }
+    }
 
 }
