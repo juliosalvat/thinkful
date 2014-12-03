@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26430F17-26C2-4E66-8ED2-CBD9D051C476</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jSonSkillz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DAD7E28EAE3FC703F01A9C1294CDF43C597492C2</key>
+		<string>https://github.com/juliosalvat/thinkful.git</string>
+		<key>F8B99E7F66E4F39D7C91BE19E2C291F422AA466C</key>
+		<string>https://github.com/juliosalvat/thinkful.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jSonSkillz/jSonSkillz.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DAD7E28EAE3FC703F01A9C1294CDF43C597492C2</key>
+		<string>../../../..</string>
+		<key>F8B99E7F66E4F39D7C91BE19E2C291F422AA466C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/juliosalvat/thinkful.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8B99E7F66E4F39D7C91BE19E2C291F422AA466C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAD7E28EAE3FC703F01A9C1294CDF43C597492C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8B99E7F66E4F39D7C91BE19E2C291F422AA466C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSApps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
