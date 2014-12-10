@@ -34,9 +34,9 @@ class ViewController: UIViewController, UISearchBarDelegate {
                             println("image " + String(i) + " URL is " + imageURLString)
                             
                             let imageData =  NSData(contentsOfURL: NSURL(string: imageURLString)!)
-                            let imageView = UIImageView(image: UIImage(data: imageData!))
-                            imageView.frame = CGRectMake(0, CGFloat(320*i), 320, 320)
+                            let imageView = UIImageView(frame: CGRectMake(0, CGFloat(320*i), 320, 320))
                             self.scrollView.addSubview(imageView)
+                            imageView.setImageWithURL( NSURL(string: imageURLString))
                         }
                     }
                 }
